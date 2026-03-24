@@ -1,0 +1,23 @@
+# ROS2 build
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+iracus/
+
+# Runtime outputs
+live_screenshots/
+output_screenshots/
+superpoint_locks/
+loftr_locks/
+
+# Large model files
+*.onnx
+*.pt
+
+# Media
+*.mp4

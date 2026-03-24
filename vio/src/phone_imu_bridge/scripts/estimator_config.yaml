@@ -1,0 +1,36 @@
+%YAML:1.0
+
+state_options:
+    max_clones: 20
+    max_slam: 30
+    num_cameras: 1
+    use_stereo: false
+    max_arucos: 0
+
+init_options:
+    init_window_time: 0.5
+    init_imu_thresh: 0.2
+    init_max_features: 100
+    init_min_features: 30
+
+tracking_options:
+    num_pts: 150
+    grid_x: 8
+    grid_y: 8
+    fast_threshold: 20
+    min_px_dist: 30
+    track_frequency: 100.0  # Match your camera frequency
+
+output_options:
+    publish_pose: true
+    publish_path: true
+    publish_tf: true
+    publish_odom: true
+    publish_points: true
+    map_frame: "map"
+    odom_frame: "odom"
+    world_frame: "world"
+
+calibration_files:
+    imu_chain: "/home/daniel/openvins_ws/src/open_vins/ov_msckf/config/hyperimu_config/kalibr_imu_chain.yaml"
+    cam_chain: "/home/daniel/openvins_ws/src/open_vins/ov_msckf/config/hyperimu_config/kalibr_imucam_chain.yaml"

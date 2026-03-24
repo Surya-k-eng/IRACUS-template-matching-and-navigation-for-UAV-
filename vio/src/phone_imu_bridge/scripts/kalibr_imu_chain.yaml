@@ -1,0 +1,12 @@
+%YAML:1.0
+
+rostopic: /imu0
+
+# IMU noise parameters (adjust based on your IMU)
+sigma_w: 0.01      # Gyro noise (rad/s/√Hz)
+sigma_a: 0.01      # Accel noise (m/s²/√Hz)
+sigma_wb: 1e-5     # Gyro bias walk (rad/s²/√Hz)
+sigma_ab: 1e-5     # Accel bias walk (m/s³/√Hz)
+
+# IMU rate
+rate: 100.0
