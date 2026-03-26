@@ -17,6 +17,13 @@ The drone receives a **seed/target image** and then:
 
 ## System Layers
 
+## Feature Matching Example — Python Base Layer
+
+<p align="center">
+  <img src="media/video.gif" width="500">
+  <img src="media/video1.gif" width="500">
+</p>
+
 ### Basic Layer
 The basic version focuses on robust visual search using:
 - Template matching.
