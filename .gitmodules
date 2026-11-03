@@ -1,3 +1,0 @@
-[submodule "vio/src/open_vins"]
-	path = vio/src/open_vins
-	url = https://github.com/rpng/open_vins
